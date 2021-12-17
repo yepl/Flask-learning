@@ -48,4 +48,7 @@ from flask import Flask, render_template
 def index():
     return render_template('index.html', name=name, movies=movies) #左边的 movies 是模板中使用的变量名称，右边的 movies 则是该变量指向的实际对象
 
-
+# #filename='D:\pythonproject\Flask入门\static\fo.png'
+# @app.route('/static/')
+# def static():
+#     return url_for('static',filename=2)
